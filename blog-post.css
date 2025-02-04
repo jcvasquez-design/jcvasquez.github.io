@@ -155,7 +155,7 @@ width: 100%;
     padding-top: 30px;
 }
 .consulte-blog-content-area{
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;
 }
 .consulte-blog-thumb {

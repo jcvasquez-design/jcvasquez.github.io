@@ -24,6 +24,7 @@ body::before {
 .section-padding {
   padding-top: 120px;
   padding-bottom: 120px;
+  background: linear-gradient(135deg, #979797, #3a6186) !important;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -124,7 +125,7 @@ body::before {
 }
 
 .consulte-header {
-  min-height: 96px;
+  min-height: 0px;
   border-bottom:1px solid #efefef;
 }
 
@@ -139,7 +140,7 @@ body::before {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 96px;
+  min-height: 80px;
   background-color: #FFFFFF;
 }
 
@@ -238,7 +239,7 @@ body::before {
 
 .consulte-menu > ul > li:hover > a, .consulte-menu>ul>li.current-menu-item > a{
   text-decoration: none;
-  color:#ef8a58;
+  color:WHITE;
 }
 
 .consulte-menu > ul > li:hover > a .text::before {
